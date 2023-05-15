@@ -1,0 +1,79 @@
+body {
+  background: rgb(63,149,86);
+  background: linear-gradient(90deg, rgba(63,149,86,1) 0%, rgba(152,226,161,1) 50%, rgba(63,149,86,1) 100%);
+  
+}
+
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.username {
+  border-radius: 20px;
+  padding: 12px 20px;
+  margin-bottom: 10px;
+  display: block;
+  border: 0.5px solid #000000;
+  box-sizing: border-box;
+  width: 30%;
+}
+
+.password {
+  border-radius: 20px;
+  padding: 12px 20px;
+  margin-bottom: 10px;
+  display: block;
+  border: 0.5px solid #000000;
+  box-sizing: border-box;
+  width: 30%;
+}
+
+
+
+.createAcc {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    color: #217824;
+    text-align: center;
+    margin-top: -20%;
+    font-size: 80px;
+}
+
+.submit {
+  background: #6A9E70;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  border-radius: 10px;
+  font-size: 16px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+  position: relative;
+  left: 55%;
+  transform: translateY(160px);
+ 
+}
+
+
+.submit:hover {
+  background-color: #5c8a52;
+}
+
+.submit:active {
+  transform: translateY(170px);
+}
+
+.create {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+  color: #217824;
+  text-align: center;
+  margin-top: -45%;
+  font-size: 80px;
+}
+

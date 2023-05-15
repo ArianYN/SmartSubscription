@@ -1,0 +1,79 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+
+.navbar {
+    background: rgb(132,237,145);
+    background: linear-gradient(90deg, rgba(132,237,145,1) 0%, rgba(78,168,99,1) 50%, rgba(132,237,145,1) 100%);
+    padding: 2em;
+    text-decoration: none;
+    margin-top: -0.6%;
+    margin-left: -0.6%;
+    position: relative;
+    width: 1473px;
+}
+
+.username {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    position: relative;
+    top: -50px;
+    font-size: 30px;
+    color: rgb(86, 86, 86);
+
+}
+
+.title {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    position: relative;
+    font-size: 30px;
+    left: 50px;
+}
+
+.first-line, .second-line, .third-line {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+  color: rgb(86, 86, 86);
+  position: relative;
+  top: 100px;
+  left: 50px;
+  line-height: 1;
+  white-space: nowrap; /* Forhindrer tekstombrydning */
+  overflow: hidden; /* Skjuler overskydende tekst */
+  text-overflow: ellipsis; /* Tilføjer "..." ved overskydende tekst */
+}
+
+
+
+.img {
+    margin-left: 500px;
+
+}
+
+.billede {
+	height: 1000px;
+	width: 1000px;
+    object-fit: contain;
+    margin-right: 500px;
+    margin-top: -400px;
+}
+
+.btn {
+    background-color: #217824;
+    color: #ffffff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    cursor: pointer;
+} 
+
+.container {
+    margin-left: 50px;
+    margin-top: -450px;
+}
